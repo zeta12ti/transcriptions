@@ -1,2 +1,2 @@
 # transcriptions
-Lilypond Source files for transcriptions
+Lilypond Source files for transcriptions.
