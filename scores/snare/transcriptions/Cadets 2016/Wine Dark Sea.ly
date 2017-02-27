@@ -23,7 +23,7 @@ snarenotes = \drummode {
     \tempo 4 = 120
     \time 4/4
     % 8:44
-    \tuplet 3/2 { sn8:16^"One snare" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
+    \tuplet 3/2 { sn8:16->^"One snare" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
     \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
     
     \tuplet 6/4 { sn16-> sn sn sn sn-> sn } \tuplet 3/2 { sn16 sn sn8:16 sn: }
@@ -104,37 +104,37 @@ snarenotes = \drummode {
     \tuplet 3/2 { sn4 sn8 } sn4|
     
     \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8 sn:16 sn: }
-    \tuplet 3/2 { sn4 sn8 } sn4|
+    \tuplet 3/2 { shot4 sn8 } sn4|
     
-    \tuplet 3/2 { sn4 sn8 } sn4 \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn4 sn8 }|
-    
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { shot4 sn8 } sn4 \tuplet 3/2 { shot4 sn8 } \tuplet 3/2 { sn4 sn8 }|
     
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn4 sn8 }|
+    \tuplet 3/2 { ping4 sn8 } \tuplet 3/2 { sn8 sn sn }|
     
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { shot4 sn8 }|
+    
+    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
+    \tuplet 3/2 { shot4 sn8 } \tuplet 3/2 { sn8 sn sn }|
     
     \tuplet 3/2 { sn8 sn sn } sn8:16 sn8 sn8:16 sn8 \tuplet 3/2 { sn4 sn8 }|
     
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { shot4 sn8 } \tuplet 3/2 { sn8 sn sn }|
     
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn4 sn8 }|
+    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { shot4 sn8 }|
     
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { shot4 sn8 } \tuplet 3/2 { sn8 sn sn }|
     
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn4 sn8 }
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { ping4 sn8 } \tuplet 3/2 { sn8 sn sn }|
     
     \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn4 sn8 }
     \tuplet 5/4 { sn16 sn sn sn sn } sn4|
     
-    sn4 r4 r2|
+    shot4 r4 r2|
     
     R1|
     
@@ -147,7 +147,7 @@ snarenotes = \drummode {
     \time 4/4
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
     \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
-    sn4 r4 r2|
+    shot4 r4 r2|
     R1*2
     % tempo change
     R1*4
@@ -163,17 +163,17 @@ snarenotes = \drummode {
     
     shot8 sn sn sn sn sn r4|
     
-    \bz { sn4-. } \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: } sn4|
+    \bz { sn4-. } \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: } shot4|
     
-    \bz { sn4-. } sn8 sn r2|
+    \bz { sn4-. } shot8 sn r2|
     
     \bz { sn4-. } sn4 \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 r8 r } }|
     
     rim8 rim rim rim rim rim \tuplet 3/2 { sn8:16 sn: sn: }|
     
-    \tuplet 3/2 { sn8:16 sn: sn: } sn4 sn8 sn r4|
+    \tuplet 3/2 { sn8:16 sn: sn: } shot4 sn8 sn r4|
     
-    r4 \tuplet 3/2 { r4 \bz{sn8(} } sn4) sn8 sn|
+    r4 \tuplet 3/2 { r4 \bz{sn8~} } sn4 shot8 sn|
     
     r4 shot4 \bz { sn4-. } \tuplet 3/2 { sn8:16 sn: sn: }|
     
@@ -501,6 +501,61 @@ snarenotes = \drummode {
 }
 
 sticking = \lyricmode {
+    R \t 11 R r r r L l l l \t 6
+    R r r r L l l l \t 4 R \t 5
+    
+    R \t 5 R r r r L l l l \t 4
+    R r r r L l l l r l r l
+    
+    R l l R R l l R R l l R R l l R
+    R l l R R l l R R l l R R l l R
+    R l l R R l l R R l l R R L
+    
+    R \t 11 R \t 35 R \t 6 R L l l l
+    
+    R \t 4 r \t 3 R \t 11
+    
+    r r r r r r r r
+    r l r r l r r l r r l r
+    r r \t 6
+    R L L R r \t 5
+    r r r r r r r r
+    r l r r l r r l r r l r
+    r b
+    R R R R R R
+    
+    b R r r r
+    r \t 5 r l r l
+    r \t 5 R L R
+    R \t 2 L \t 2 R L R
+    R L R R L R L
+    R r r L l l R L R r r
+    L l l R r r r r L R L
+    R r r L l l R L R r r
+    L l l R L R L R L
+    R r r L l l R L R r r
+    L l l R r r r r L R L
+    R r r L l l R L R r r
+    L l l R L R R L R L
+    R L R L R r r L l R
+    B
+    
+    R l r r L l l R l r r L l l
+    R l r r L l l R B B
+    
+    r \t 5 R L R L R L
+    R
+    
+    r \t 5
+    r l r l r \t 5
+    R L r r r r
+    b r \t 5 R
+    b R L
+    b R R l r l
+    r r r r r r r \t 5
+    R R L
+    r L R L
+    
     
 }
 

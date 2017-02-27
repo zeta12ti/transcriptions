@@ -69,10 +69,18 @@ drumPitchNames.bst          = #'backstick % because bs is B Sharp
 \layout {
     % no indent
     indent = 0
+    
     % set the drum style: what notes exist
     \set DrumStaff.drumStyleTable = #(alist->hash-table snare-style)
+    
     % make things take their full space, I guess?
-    ragged-right = ##f
+    % Commented out for now: I don't think it does anything we want.
+    %ragged-right = ##f
+    
+    % Lyrics will ignore slurs and ties,
+    % allowing you to put different stickings on tied/slurred notes
+    \set Lyrics.ignoreMelismata = ##t
+    
     \context {
         \DrumStaff
         
