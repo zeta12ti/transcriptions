@@ -177,13 +177,13 @@ snarenotes = \drummode {
     
     r4 shot4 \bz { sn4-. } \tuplet 3/2 { sn8:16 sn: sn: }|
     
-    \tuplet 3/2 { sn8:16 sn: sn: } sn4 sn16 sn sn sn sn sn sn sn|
+    \tuplet 3/2 { sn8:16 sn: sn: } shot4 sn16 sn sn sn sn sn sn sn|
     
     r4 \tuplet 3/2 { sn8 sn:16 sn: }
     \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8 sn:16 sn: }|
     
     \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8 sn:16 sn: }
-    \tuplet 3/2 { sn8 sn:16 sn: } sn4|
+    \tuplet 3/2 { sn8 sn:16 sn: } shot4|
     
     ping8 sn ping8 sn ping8 sn sn sn|
     
@@ -555,7 +555,16 @@ sticking = \lyricmode {
     r r r r r r r \t 5
     R R L
     r L R L
+    R b r \t 5
+    R R L R L R L R L
+    r \t 2 r \t 2 r \t 2
+    r \t 2 r \t 2 r \t 2 R
+    R L R L R L R L
+    R L R L R L R L R L R L R L R L
+    R L R L R B
+    B
     
+    r
     
 }
 
