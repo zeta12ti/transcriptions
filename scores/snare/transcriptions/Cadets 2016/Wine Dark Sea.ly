@@ -439,7 +439,7 @@ snarenotes = \drummode {
     \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }|
     
     \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }|
+    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn:-> }|
     
     \tuplet 3/2 { sn8:16-> sn:-> sn:-> } \tuplet 3/2 { sn8:16-> shot4 }
     \fl \tuplet 3/2 { sn4-> \fl sn-> \fl sn-> }|
@@ -468,10 +468,10 @@ snarenotes = \drummode {
     \tuplet 9/8 { sn16-> sn sn sn-> sn sn sn-> sn sn }|
     
     \tuplet 9/8 { sn16-> sn sn sn-> sn sn ping8. }
-    \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn }|
+    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }|
     
     \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }
-    sn8 \fl sn-> \fl sn-> \fl sn->|
+    sn8-> \fl sn-> \fl sn-> \fl sn->|
     
     \tuplet 6/4 { sn16-> sn sn sn sn8 } \tuplet 6/4 { sn16-> sn sn sn sn8 }
     \tuplet 6/4 { sn16-> sn sn sn sn8 } \tuplet 6/4 { sn16-> sn sn sn sn sn }
@@ -515,7 +515,7 @@ sticking = \lyricmode {
     
     R \t 11 R \t 35 R \t 6 R L l l l
     
-    R \t 4 r \t 3 R \t 11
+    R \t 4 r l r l R \t 11
     
     r r r r r r r r
     r l r r l r r l r r l r
@@ -559,20 +559,20 @@ sticking = \lyricmode {
     r L R L
     R b r \t 5
     R R \t 7
-    r \t 2 r \t 2 r \t 2
-    r \t 2 r \t 2 r \t 2 R
-    R L R L R L R L
+    r \t 2 l \t 2 r \t 2
+    l \t 2 r \t 2 l \t 2 R
+    R \t 7
     R L R L R L R L R L R L R L R L
     R L R L R B
     B
     
     R \t 5 r l
     R r L l R R L R L
-    R \t 5 r l r l r l
+    R \t 5 r \t 5
     R L R L R r r L l R r r L l
     R L R r r L l R L R L
     R r L l l l R L R L
-    R \t 5 r l r l r l
+    R \t 5 r \t 5
     R R r r r r L l l l
     l R r r r r L R L R L
     R
@@ -661,9 +661,9 @@ sticking = \lyricmode {
     R \t 11
     R \t 5 R L R L
     R \t 11
-    R L R L R R \t 4 L
-    R \t 4 L R \t 4 L
-    R L R L R L R L
+    R \t 3 R R \t 4 L
+    R \t 4 L R \t 5
+    R \t 3 R L R L
     
     r l r l r l r l r l r l
     r l r l r L R L
@@ -674,12 +674,12 @@ sticking = \lyricmode {
     R L R r r L l R r L l
     R R R R R R R L L
     R \t 4 L R l l R r r L l l
-    R r r L l l R R L R L R L
-    R L R L R L R L R L
+    R r r L l l R R \t 4 L
+    R \t 4 L R L R L
     R l r l r L r l r l R l r l r L r l r l r
     l R l r l r L r l r l R l r l r L r l r
     l r l r l r L R \t 5
-    R L R L R L R L
+    R \t 3 R L R L
     
     R r r L l l R r r L l l R r r L l l
     R l l R r r L l l R l l R r r L l l
