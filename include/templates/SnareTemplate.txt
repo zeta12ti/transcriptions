@@ -6,6 +6,9 @@
 % NOTE: UNCOMMENT THIS FOR THE FINAL DRAFT
 % This will remove links in the pdf file, producing a smaller file and
 % reducing the possibility of personal info being leaked
+% IF you're using frescobaldi, the shortcut CTRL+SHIFT+P
+% will run lilypond in publish mode, and automatically disable
+% point and click
 %\pointAndClickOff
 
 \include "basic-setup.ly"
