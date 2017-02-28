@@ -417,7 +417,7 @@ snarenotes = \drummode {
     
     sn8. sn16 sn8. sn16 sn8. sn16 sn8. sn16
     
-    \tuplet 3/2 { sn4 sn shot } \tuplet 3/2 { \fl sn4 \fl sn \fl sn }|
+    \tuplet 3/2 { sn4 sn shot } \fl \tuplet 3/2 { sn4 \fl sn \fl sn }|
     
     % tempo change
     
@@ -441,12 +441,12 @@ snarenotes = \drummode {
     \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
     
     \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 shot4 }
-    \tuplet 3/2 { \fl sn4 \fl sn \fl sn }|
+    \fl \tuplet 3/2 { sn4 \fl sn \fl sn }|
     
-    \tuplet 3/2 { \fl sn8 \fl sn \fl sn } \tuplet 3/2 { \fl sn8 \fl sn \fl sn }
-    \tuplet 3/2 { \fl sn8 \fl sn \fl sn } \tuplet 3/2 { \fl sn8 \fl sn \fl sn }|
+    \fl \tuplet 3/2 { sn8 \fl sn \fl sn } \fl \tuplet 3/2 { sn8 \fl sn \fl sn }
+    \fl \tuplet 3/2 { sn8 \fl sn \fl sn } \fl \tuplet 3/2 { sn8 \fl sn \fl sn }|
     
-    \tuplet 5/4 { \fl \fl sn8 \fl sn \fl sn \fl sn \fl sn } \tuplet 3/2 { \fl sn4 \fl sn \fl sn }|
+    \fl \tuplet 5/4 { sn8 \fl sn \fl sn \fl sn \fl sn } \fl \tuplet 3/2 { sn4 \fl sn \fl sn }|
     
     \tuplet 3/2 { shot4 sn8 } \tuplet 3/2 { sn8 sn:16 sn: }
     \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8 sn sn }|
@@ -454,11 +454,11 @@ snarenotes = \drummode {
     \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: }
     \tuplet 9/8 { sn16 sn sn sn sn sn sn sn sn }|
     
-    shot8 sn \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
+    shot8 sn \fl \tuplet 3/2 { sn8 \fl sn \fl sn }
+    \fl \tuplet 3/2 { sn8 \fl sn \fl sn } \fl \tuplet 3/2 { sn8 \fl sn \fl sn }|
     
-    shot8 sn \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
+    shot8 sn \fl \tuplet 3/2 { sn8 \fl sn \fl sn }
+    \fl \tuplet 3/2 { sn8 \fl sn \fl sn } \fl \tuplet 3/2 { sn8 \fl sn \fl sn }|
     
     \tuplet 5/4 { png8 png png png png }
     png8 png sn8 sn|
@@ -470,7 +470,7 @@ snarenotes = \drummode {
     \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn }|
     
     \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn }
-    sn8 sn sn sn|
+    sn8 \fl sn \fl sn \fl sn|
     
     \tuplet 6/4 { sn16 sn sn sn sn8 } \tuplet 6/4 { sn16 sn sn sn sn8 }
     \tuplet 6/4 { sn16 sn sn sn sn8 } \tuplet 6/4 { sn16 sn sn sn sn sn }
@@ -482,7 +482,7 @@ snarenotes = \drummode {
     \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: }
     
     \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 shot4 }
-    \tuplet 3/2 { sn4 sn sn }
+    \fl \tuplet 3/2 { sn4 \fl sn \fl sn }
     
     \tuplet 9/8 { sn16 sn sn sn sn sn sn sn sn }
     \tuplet 9/8 { sn16 sn sn sn sn sn sn sn sn }|
@@ -493,7 +493,7 @@ snarenotes = \drummode {
     \tuplet 9/8 { sn16 sn sn sn sn sn sn sn sn }
     \tuplet 9/8 { sn16 sn sn sn sn sn sn sn sn }|
     
-    \tuplet 9/8 { sn16 sn sn sn sn sn sn8. }
+    \tuplet 9/8 { sn16 sn sn sn sn sn ping8. }
     \tuplet 6/4 { sn4 r16 sn16 } \tuplet 6/4 { sn4 r16 sn16 }|
     
     sn4 r4 r2
@@ -666,6 +666,25 @@ sticking = \lyricmode {
     
     r l r l r l r l r l r l
     r l r l r L R L
+    
+    R L R L R L R L R r r
+    L R L R L R L l l R r r L l l
+    R L R r r L l R r L l
+    R L R r r L l R r L l
+    R R R R R R R L L
+    R L R L R L R l l R r r L l l
+    R r r L l l R R L R L R L
+    R L R L R L R L R L
+    R l r l r L r l r l R l r l r L r l r l r
+    l R l r l r L r l r l R l r l r L r l r
+    l r l r l r L R L R L R L
+    R L R L R L R L
+    
+    R r r L l l R r r L l l R r r L l l
+    R l l R r r L l l R l l R r r L l l
+    R r r L l l R r r L l l R r r L l l
+    R r r L l l R R L R L
+    R
     
 }
 
