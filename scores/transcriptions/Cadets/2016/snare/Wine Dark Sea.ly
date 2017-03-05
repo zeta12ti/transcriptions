@@ -23,7 +23,7 @@ snarenotes = \drummode {
     \tempo 4 = 120
     \time 4/4
     % 8:44
-    \tuplet 3/2 { sn8:16->^"One snare" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
+    \tuplet 3/2 { sn8:16->\dyn "mp - f"^"One snare" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
     \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
     
     \tuplet 6/4 { sn16-> sn sn sn sn-> sn } \tuplet 3/2 { sn16 sn sn8:16 sn: }
@@ -36,43 +36,43 @@ snarenotes = \drummode {
     \tuplet 6/4 { sn16-> sn sn sn sn-> sn } \tuplet 3/2 { sn16 sn sn8:16 sn: }|
     
     \tuplet 3/2 { sn8:16 sn: sn16-> sn } \tuplet 6/4 { sn16 sn sn16-> sn sn sn }
-    sn8 sn sn sn|
+    sn8->\> sn sn sn|
     
     %8:50
-    sn16->^"Two snares" sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn->|
+    sn16->\dyn "pp - mp"\<^"Three snares" sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn->|
     
-    sn16-> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn->|
+    sn16->\dyn "p - ff"\> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn->|
     
-    sn16-> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn-> sn8-> sn->|
+    sn16->\dyn "pp - mp"\< sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn-> sn8-> sn->|
     
-    \tuplet 3/2 { sn8->:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
+    \tuplet 3/2 { sn8->:16\dyn "mp - f" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
     
     \tuplet 3/2 { sn8->:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
     \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
     
     \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8--\> sn-- sn } \tuplet 3/2 { sn8 sn sn }|
     
     \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8\p\< sn sn } \tuplet 3/2 { sn8 sn sn }|
     
-    \tuplet 3/2 { sn8->:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
+    \tuplet 3/2 { sn8->:16\dyn "mp - f" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
     \tuplet 3/2 { sn4 sn8-> } \tuplet 3/2 { sn8-> sn sn }|
     
     \tuplet 3/2 { sn4 sn8->:16 } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn4 sn8\< } \tuplet 3/2 { sn8 sn sn }|
     
-    \tuplet 3/2 { sn8-> sn8:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: }
+    \tuplet 3/2 { sn8->\dyn "p - f"\> sn8:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: }
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
     
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn4 sn8 }
+    \tuplet 3/2 { sn4\p\< sn8 } \tuplet 3/2 { sn4 sn8 }
     \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn4 sn8 }|
     
-    \tuplet 3/2 { sn8 sn8:16 sn } \tuplet 3/2 { sn8 sn8:16 sn }
+    \tuplet 3/2 { sn8\f\> sn8:16 sn } \tuplet 3/2 { sn8 sn8:16 sn }
     \tuplet 3/2 { sn8 sn8:16 sn } \tuplet 3/2 { sn8 sn8:16 sn }|
     
-    sn4  \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } } sn4|
+    sn4\p  \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } } sn4|
     
     \tuplet 3/2 { sn8->:16 sn->: r8 } \tuplet 3/2 { sn8->:16 sn->: r8 }
     \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
@@ -507,13 +507,17 @@ sticking = \lyricmode {
     R r r r L l l l \t 4 R \t 5
     
     R \t 5 R r r r L l l l \t 4
-    R r r r L l l l r l r l
+    R r r r L l l l R r r r
     
     R l l R R l l R R l l R R l l R
     R l l R R l l R R l l R R l l R
     R l l R R l l R R l l R R L
     
-    R \t 11 R \t 35 R \t 6 R L l l l
+    R \t 11
+    R \t 11
+    r \t 5 R L \t 4
+    r \t 11
+    R \t 6 R L l l l
     
     R \t 4 r l r l R \t 11
     
