@@ -149,8 +149,8 @@ u = { \skip 1 }
 
 % Makes proper flams with \fl - will always be an eighth note
 fl = \drummode {
-    % uncomment this to remove the cross stroke
-    %\temporary \override Flag.stroke-style = #"grace"
+    % comment this to remove the cross stroke
+    \temporary \override Flag.stroke-style = #"grace"
     \temporary \override Stem #'length = #4
     \grace {sn8}
     \revert Flag.stroke-style
