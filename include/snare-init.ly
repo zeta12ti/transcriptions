@@ -1,4 +1,4 @@
-% Snaredrum set-up
+% Snaredrum set-up snare shortcuts
 
 \version "2.18.2"
 
@@ -23,6 +23,7 @@ drumPitchNames.stickclick   = #'stickclick
 drumPitchNames.sc           = #'stickclick
 drumPitchNames.backstick    = #'backstick
 drumPitchNames.bst          = #'backstick % because bs is B Sharp
+drumPitchNames.gock         = #'gock
 
 
 % custom noteheads can be added below
@@ -34,13 +35,14 @@ drumPitchNames.bst          = #'backstick % because bs is B Sharp
 % e.g. ((backstick) (triangle grob))
 % Note that the full name backstick has to be used, not bst
 #(define snare-style
-     '((snare          default         	#f				1)
-       (doublestop     default         	#f             -1)
-       (shot           cross           	"marcato"		1)
-       (ping           default			"marcato"   	1)
-       (rimclick       cross           	#f      		3)
-       (stickclick     cross           	#f      		1)
-       (backstick      harmonic-black  	#f      		1)))
+     '((snare		default		#f		1)
+       (doublestop	default		#f		-1)
+       (shot		cross		"marcato"	1)
+       (ping		default		"marcato"	1)
+       (rimclick		cross		#f		3)
+       (stickclick	cross		#f		1)
+       (backstick	harmonic-black	#f		1)
+       (gock		xcircle		"marcato"	1)))
 
 
 % catches the type of drum hit and changes the notehead based on that
@@ -208,6 +210,15 @@ cr=
 #(define-music-function (parser location music) (ly:music?)
     #{
         \tweak NoteHead.style #'cross
+        #music
+    #}
+)
+
+% changes the next notehead to xcircle
+xc=
+#(define-music-function (parser location music) (ly:music?)
+    #{
+        \tweak NoteHead.style #'xcircle
         #music
     #}
 )
