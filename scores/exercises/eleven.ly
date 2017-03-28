@@ -13,8 +13,8 @@
 
 \header {
     title = "Eleven"
-    composer = ""
-    arranger = ""
+    composer = "Scott Johnson"
+    arranger = "trans. quikstix3"
     instrument = ""
 }
 
@@ -91,6 +91,7 @@ snarenotes = \drummode {
     \tuplet 3/2 { sn4-> \fl sn-> \fl sn-> } shot16 shot8
     
     R1*11/16^"Tenor solo"
+    %\tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } sn8 sn16
     sn4->
     
     
