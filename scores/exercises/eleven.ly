@@ -76,7 +76,6 @@ snarenotes = \drummode {
     
     sn4 sc^"Stick Click" sn8->^"Left up" sn16
     sn8^"Grip" \bz sn-. \xc sn4^"Rim Gock" sn8 sn16
-    
     sn8 \bz sn \xc sn4 sn8 sn16
     sn8 \bz sn-. \xc sn4 sn8 sn16
     sn8 \bz sn \xc sn4 sn8 sn16
