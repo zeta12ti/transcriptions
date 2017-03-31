@@ -1,0 +1,5 @@
+-*- python; indent: no;
+
+text = text.translate(
+    str.maketrans('RLrl', 'LRlr')
+    )
