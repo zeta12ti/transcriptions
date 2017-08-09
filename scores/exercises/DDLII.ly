@@ -23,17 +23,17 @@ snarenotes = \drummode {
     \compressFullBarRests
     \tempo 4. = 120
     \time 12/8
-    r4 r16 sn sn8. \fl sn sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16
+    r4 r16 sn-> sn8.-> \fl sn-> sn8-> sn16 sn8 sn16 sn8 sn16 sn8 sn16
     sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16 sn8 ping16
     
-    r4 r16 sn sn8. \fl sn sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16
-    sn8 ping16 sn8 sn16 sn8 sn16  sn8 sn16 sn8 sn16 sn8 sn16 sn8. ping
+    r4 r16 sn-> sn8.-> \fl sn-> sn8-> sn16 sn8 sn16 sn8 sn16 sn8 sn16
+    sn8 ping16 sn8-> sn16 sn8 sn16  sn8 sn16 sn8 sn16 sn8 sn16 sn8. ping
     \bar "|."
 }
 
 sticking = \lyricmode {
     L R L R r r r r l l l l r r r r l l l l r r r r l l R
-    L R L R r r r r l l l l r l l l r r r r l l l l L
+    L R L R r r r r l l l l R L l l r r r r l l l l R
 }
 
 \score {
