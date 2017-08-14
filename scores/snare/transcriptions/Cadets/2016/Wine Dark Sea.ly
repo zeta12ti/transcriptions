@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.19.65"
 
 % Created on 2017-02-20.
 
@@ -23,130 +23,130 @@ snarenotes = \drummode {
     \tempo 4 = 120
     \time 4/4
     % 8:44
-    \tuplet 3/2 { sn8:16->\dyn "mp - f"^"One snare" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
+    \tuplet 3/2 { sn8:16->\dyn "mp - f"^"One snare" 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }|
 
-    \tuplet 6/4 { sn16-> sn sn sn sn-> sn } \tuplet 3/2 { sn16 sn sn8:16 sn: }
-    \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn16-> sn sn sn }|
+    \tuplet 6/4 { sn16-> 16 16 16 16-> 16 } \tuplet 3/2 { 16 16 8:16 8:16 }
+    \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { 8:16 16-> 16 16 16 }|
 
-    \tuplet 3/2 { sn16-> sn sn sn sn8:16 } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn8->:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
+    \tuplet 3/2 { sn16-> 16 16 16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn8->:16 8:16 8:16 } \tuplet 3/2 { sn8:16 8:16 8:16 }|
 
-    \tuplet 3/2 { sn8->:16^"Other snare" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 6/4 { sn16-> sn sn sn sn-> sn } \tuplet 3/2 { sn16 sn sn8:16 sn: }|
+    \tuplet 3/2 { sn8->:16^"Other snare" 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 6/4 { sn16-> 16 16 16 16-> 16 } \tuplet 3/2 { 16 16 8:16 8:16 }|
 
-    \tuplet 3/2 { sn8:16 sn: sn16-> sn } \tuplet 6/4 { sn16 sn sn16-> sn sn sn }
-    sn8->\> sn sn sn|
+    \tuplet 3/2 { sn8:16 8:16 sn16-> 16 } \tuplet 6/4 { 16 16 16-> 16 16 16 }
+    sn8->\> 8 8 8|
 
     %8:50
-    sn16->\dyn "pp - mp"\<^"Three snares" sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn->|
+    sn16->\dyn "pp - mp"\<^"Three snares" 16 16 16-> 16-> 16 16 16-> 16-> 16 16 16-> 16-> 16 16 16->|
 
-    sn16->\dyn "p - ff"\> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn->|
+    sn16->\dyn "p - ff"\> 16 16 16-> 16-> 16 16 16-> 16-> 16 16 16-> 16-> 16 16 16->|
 
-    sn16->\dyn "pp - mp"\< sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn-> sn8-> sn->|
+    sn16->\dyn "pp - mp"\< 16 16 16-> 16-> 16 16 16-> 16-> 16 16 16-> 8-> 8->|
 
-    \tuplet 3/2 { sn8->:16\dyn "mp - f" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8->:16\dyn "mp - f" 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 }|
 
-    \tuplet 3/2 { sn8->:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
+    \tuplet 3/2 { sn8->:16 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }|
 
-    \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn8--\> sn-- sn } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { sn8:16 8:16 8:16 }
+    \tuplet 3/2 { sn8--\> 8-- 8 } \tuplet 3/2 { 8 8 8 }|
 
-    \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }
-    \tuplet 3/2 { sn8\p\< sn sn } \tuplet 3/2 { sn8 sn sn }|
+    \bz { \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } }
+    \tuplet 3/2 { sn8\p\< 8 8 } \tuplet 3/2 { 8 8 8 }|
 
-    \tuplet 3/2 { sn8->:16\dyn "mp - f" sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn4 sn8-> } \tuplet 3/2 { sn8-> sn sn }|
+    \tuplet 3/2 { sn8->:16\dyn "mp - f" 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn4 8-> } \tuplet 3/2 { 8-> 8 8 }|
 
-    \tuplet 3/2 { sn4 sn8->:16 } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn4 sn8\< } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn4 8->:16 } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn4 8\< } \tuplet 3/2 { 8 8 8 }|
 
-    \tuplet 3/2 { sn8->\dyn "p - f"\> sn8:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8->\dyn "p - f"\> 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 }|
 
-    \tuplet 3/2 { sn4\p\< sn8 } \tuplet 3/2 { sn4 sn8 }
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn4 sn8 }|
+    \tuplet 3/2 { sn4\p\< 8 } \tuplet 3/2 { 4 8 }
+    \tuplet 3/2 { sn4 8 } \tuplet 3/2 { 4 8 }|
 
-    \tuplet 3/2 { sn8\f\> sn8:16 sn } \tuplet 3/2 { sn8 sn8:16 sn }
-    \tuplet 3/2 { sn8 sn8:16 sn } \tuplet 3/2 { sn8 sn8:16 sn }|
+    \tuplet 3/2 { sn8\f\> 8:16 8 } \tuplet 3/2 { 8 8:16 8 }
+    \tuplet 3/2 { sn8 8:16 8 } \tuplet 3/2 { 8 8:16 8 }|
 
-    sn4\p  \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } } sn4|
+    sn4\p  \bz { \tuplet 3/2 { 8 8 8 } \tuplet 3/2 { 8 8 8 } } 4|
 
-    \tuplet 3/2 { sn8->:16 sn->: r8 } \tuplet 3/2 { sn8->:16 sn->: r8 }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8->:16 8:16-> r8 } \tuplet 3/2 { sn8->:16 8:16-> r8 }
+    \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 }|
 
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn4 sn8 }
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn4 sn8 }|
+    \tuplet 3/2 { sn4 8 } \tuplet 3/2 { 4 8 }
+    \tuplet 3/2 { sn4 8 } \tuplet 3/2 { 4 8 }|
 
-    \tuplet 3/2 { sn8 sn8:16 sn } \tuplet 3/2 { sn8 sn8:16 sn }
-    \tuplet 3/2 { sn8 sn8:16 sn } \tuplet 3/2 { sn8 sn8:16 sn }|
+    \tuplet 3/2 { sn8 8:16 8 } \tuplet 3/2 { 8 8:16 8 }
+    \tuplet 3/2 { sn8 8:16 8 } \tuplet 3/2 { 8 8:16 8 }|
 
-    sn4 \bz { sn4-. } \tuplet 3/2 { ping4 ping ping }|
+    sn4 \bz { sn4-. } \tuplet 3/2 { ping4 4 4 }|
 
-    \tuplet 3/2 { ping4 ping ping } r2|
+    \tuplet 3/2 { ping4 4 4 } r2|
 
     R1*2|
 
     r2 r4 \bz { sn4-. }|
 
     \time 3/4
-    sc4.->^"Stick click" sc|
+    sc4.->^"Stick click" 4.|
 
-    sc4. sc|
+    sc4. 4.|
 
     \time 4/4
-    \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }
+    \bz { \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } }
     sn8 sn sn sn|
 
-    \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn4-> sn8-> } sn4->|
+    \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn4-> 8-> } 4->|
 
-    \tuplet 3/2 { sn8-> sn:16 sn: } \tuplet 3/2 { sn8-> sn:16 sn: }
-    \tuplet 3/2 { shot4 sn8-> } sn4->|
+    \tuplet 3/2 { sn8-> 8:16 8:16 } \tuplet 3/2 { 8-> 8:16 8:16 }
+    \tuplet 3/2 { shot4 sn8-> } 4->|
 
-    \tuplet 3/2 { shot4 sn8-> } sn4-> \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { sn4-> sn8-> }|
+    \tuplet 3/2 { shot4 sn8-> } 4-> \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { 4-> 8-> }|
 
-    \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8-> sn sn }
-    \tuplet 3/2 { ping4 sn8-> } \tuplet 3/2 { sn8-> sn sn }|
+    \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8-> 8 8 }
+    \tuplet 3/2 { ping4 sn8-> } \tuplet 3/2 { 8-> 8 8 }|
 
-    \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8-> sn sn }
-    \tuplet 3/2 { sn8 sn sn-> } \tuplet 3/2 { shot4 sn8-> }|
+    \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8-> 8 8 }
+    \tuplet 3/2 { sn8 8 8-> } \tuplet 3/2 { shot4 sn8-> }|
 
-    \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8-> sn sn }
-    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { sn8-> sn sn }|
+    \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8-> 8 8 }
+    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { 8-> 8 8 }|
 
-    \tuplet 3/2 { sn8-> sn sn } sn8->:16 sn8-> sn8->:16-> sn8-> \tuplet 3/2 { sn4-> sn8-> }|
+    \tuplet 3/2 { sn8-> 8 8 } 8:16-> 8-> 8:16-> 8-> \tuplet 3/2 { 4-> 8-> }|
 
-    \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8-> sn sn }
-    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { sn8-> sn sn }|
+    \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8-> 8 8 }
+    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { 8-> 8 8 }|
 
-    \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8-> sn sn }
-    \tuplet 3/2 { sn8 sn sn-> } \tuplet 3/2 { shot4 sn8-> }|
+    \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8-> 8 8 }
+    \tuplet 3/2 { sn8 8 8-> } \tuplet 3/2 { shot4 sn8-> }|
 
-    \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8-> sn sn }
-    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { sn8-> sn sn }|
+    \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8-> 8 8 }
+    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { 8-> 8 8 }|
 
-    \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn4-> sn8-> }
-    \tuplet 3/2 { ping4 sn8-> } \tuplet 3/2 { sn8-> sn-> sn-> }|
+    \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 4-> 8-> }
+    \tuplet 3/2 { ping4 sn8-> } \tuplet 3/2 { 8-> 8-> 8-> }|
 
-    \tuplet 3/2 { sn4-> sn8-> } \tuplet 3/2 { sn4-> sn8-> }
-    \tuplet 5/4 { sn16-> sn sn sn-> sn } sn4->|
+    \tuplet 3/2 { sn4-> 8-> } \tuplet 3/2 { 4-> 8-> }
+    \tuplet 5/4 { sn16-> 16 16 16-> 16 } 4->|
 
     shot4 r4 r2|
 
     R1|
 
-    sn16-> sn sn sn sn8-> sn16 sn-> sn16 sn sn sn sn8-> sn16 sn
-    sn16-> sn sn sn sn8-> sn16 sn \tuplet 3/2 { sn4-> sn-> sn-> }|
+    sn16-> 16 16 16 8-> 16 16 16-> 16 16 16 8-> 16 16
+    sn16-> 16 16 16 8-> 16 16 \tuplet 3/2 { 4-> 4-> 4-> }|
 
     R1*2
     \time 2/4
     R2
     \time 4/4
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn8->:16-> sn:-> sn:-> } \tuplet 3/2 { sn8->:16 sn:-> sn:-> }|
+    \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 }
+    \tuplet 3/2 { sn8:16-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8:16-> }|
     shot4 r4 r2|
     R1*2
     % tempo change
@@ -157,35 +157,35 @@ snarenotes = \drummode {
 
     %9:59
     \time 4/4
-    r2 \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }|
+    r2 \bz { \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } }|
 
-    sn8 sn sn sn \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
+    sn8 8 8 8 \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }|
 
-    shot8 sn-> sn sn sn sn r4|
+    shot8 sn-> 8 8 8 8 r4|
 
-    \bz { sn4-. } \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8:16 sn: sn: } shot4|
+    \bz { sn4-. } \tuplet 3/2 { 8:16 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 } shot4|
 
     \bz { sn4-. } shot8 sn-> r2|
 
-    \bz { sn4-. } sn4-> \bz { \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8 r8 r } }|
+    \bz { sn4-. } 4-> \bz { \tuplet 3/2 { 8-> 8 8 } \tuplet 3/2 { 8 r8 r } }|
 
-    rim8 rim rim rim rim rim \tuplet 3/2 { sn8:16 sn: sn: }|
+    rim8 8 8 8 8 8 \tuplet 3/2 { sn8:16 8:16 8:16 }|
 
-    \tuplet 3/2 { sn8:16 sn: sn: } shot4 sn8-> sn-> r4|
+    \tuplet 3/2 { sn8:16 8:16 8:16 } shot4 sn8-> 8-> r4|
 
     r4 \tuplet 3/2 { r4 \bz{sn8~} } sn4-> shot8 sn->|
 
-    r4 shot4 \bz { sn4-. } \tuplet 3/2 { sn8:16 sn: sn: }|
+    r4 shot4 \bz { sn4-. } \tuplet 3/2 { 8:16 8:16 8:16 }|
 
-    \tuplet 3/2 { sn8:16 sn: sn: } shot4 sn16-> sn-> sn-> sn-> sn-> sn-> sn-> sn->|
+    \tuplet 3/2 { sn8:16 8:16 8:16 } shot4 sn16-> 16-> 16-> 16-> 16-> 16-> 16-> 16->|
 
-    r4 \tuplet 3/2 { sn8 sn:16 sn: }
-    \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8 sn:16 sn: }|
+    r4 \tuplet 3/2 { sn8 8:16 8:16 }
+    \tuplet 3/2 { sn8 8:16 8:16 } \tuplet 3/2 { 8 8:16 8:16 }|
 
-    \tuplet 3/2 { sn8 sn:16 sn: } \tuplet 3/2 { sn8 sn:16 sn: }
-    \tuplet 3/2 { sn8 sn:16 sn: } shot4|
+    \tuplet 3/2 { sn8 8:16 8:16 } \tuplet 3/2 { 8 8:16 8:16 }
+    \tuplet 3/2 { sn8 8:16 8:16 } shot4|
 
-    ping8 sn-> ping8 sn-> ping8 sn-> sn-> sn->|
+    ping8 sn-> ping8 sn-> ping8 sn-> 8-> 8->|
 
     <sn dbl>16-> dbl-> sn-> dbl-> sn-> dbl-> sn-> dbl-> sn-> dbl-> sn-> dbl->
     <sn dbl>16-> sn-> dbl-> sn->|
@@ -203,298 +203,298 @@ snarenotes = \drummode {
     R2
     %10:36
     \time 3/4
-    \bz { \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8 sn sn } }
+    \bz { \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8 8 8 } }
     sn8 sn|
 
     \time 4/4
-    sn8-> sn8:16
-    sn8-> sn8:16 \tuplet 3/2 { sn4-> sn8-> }
-    \tuplet 3/2 { sn8-> sn-> sn-> }|
+    sn8-> 8:16
+    sn8-> 8:16 \tuplet 3/2 { 4-> 8-> }
+    \tuplet 3/2 { sn8-> 8-> 8-> }|
 
-    \tuplet 3/2 { sn8-> sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8-> 8:16 sn: } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 }|
 
-    \tuplet 3/2 { sn4-> sn8-> } \tuplet 3/2 { sn4-> sn8-> }
-    \tuplet 5/4 { sn16-> sn sn sn-> sn } \tuplet 5/4 { sn16-> sn sn sn-> sn }|
+    \tuplet 3/2 { sn4-> 8-> } \tuplet 3/2 { 4-> 8-> }
+    \tuplet 5/4 { sn16-> 16 16 16-> 16 } \tuplet 5/4 { 16-> 16 16 16-> 16 }|
 
-    \tuplet 3/2 { sn4-> sn8-> } \tuplet 5/4 { sn16-> sn sn sn-> sn }
-    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { sn4-> sn8-> }|
+    \tuplet 3/2 { sn4-> 8-> } \tuplet 5/4 { 16-> 16 16 16-> 16 }
+    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { 4-> 8-> }|
 
-    \tuplet 3/2 { sn8-> sn sn-> } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { sn4-> sn8-> }|
+    \tuplet 3/2 { sn8-> 8 8-> } \tuplet 3/2 { 8 8 8 }
+    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { 4-> 8-> }|
 
-    \tuplet 3/2 { sn8-> sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: }
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8-> 8:16 sn: } \tuplet 3/2 { 8:16 8:16 8:16 }
+    \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 }|
 
-    sn4-> \tuplet 3/2 { sn8-> sn sn }
-    \tuplet 3/2 { sn8 sn sn-> } \tuplet 3/2 { sn8 sn sn }|
+    sn4-> \tuplet 3/2 { 8-> 8 8 }
+    \tuplet 3/2 { sn8 8 8-> } \tuplet 3/2 { 8 8 8 }|
 
-    \tuplet 3/2 { sn8 sn-> sn } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn4-> sn8-> } \tuplet 3/2 { sn8-> sn-> sn-> }|
+    \tuplet 3/2 { sn8 8-> 8 } \tuplet 3/2 { 8 8 8 }
+    \tuplet 3/2 { sn4-> 8-> } \tuplet 3/2 { 8-> 8-> 8-> }|
 
-    sn4 r4 r2|
+    sn4-> r4 r2|
 
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn8->:16 sn: sn: } \tuplet 3/2 { sn8 sn sn }|
+    \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 }
+    \tuplet 3/2 { sn8->:16 8:16 8:16 } \tuplet 3/2 { 8 8 8 }|
 
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8->:16 sn: sn: }
-    \tuplet 3/2 { sn4 sn8 } \tuplet 3/2 { sn4 shot8 }|
+    \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { sn8->:16 8:16 8:16 }
+    \tuplet 3/2 { sn4 8 } \tuplet 3/2 { 4 shot8 }|
 
-    sn4-> sn16-> sn sn sn-> sn-> sn sn sn-> sn-> sn sn sn->|
+    sn4-> 16-> 16 16 16-> 16-> 16 16 16-> 16-> 16 16 16->|
 
-    \tuplet 3/2 { sn8-> sn \fl sn8-> } \tuplet 3/2 { sn \fl sn-> sn }
-    \tuplet 3/2 { sn8 \fl sn-> sn } \fl \tuplet 3/2 { sn8-> sn sn }|
+    \tuplet 3/2 { sn8-> 8 \fl 8-> } \tuplet 3/2 { 8 \fl 8-> 8 }
+    \tuplet 3/2 { sn8 \fl 8-> 8 } \fl \tuplet 3/2 { 8-> 8 8 }|
 
-    ping4 sn4-> sn4-> r4|
+    ping4 sn4-> 4-> r4|
 
-    r2 \tuplet 3/2 { r4 sn8-> } \tuplet 3/2 { sn4-> sn8-> }|
+    r2 \tuplet 3/2 { r4 sn8-> } \tuplet 3/2 { 4-> 8-> }|
 
-    \tuplet 3/2 { sn8-> sn:16 sn: } \tuplet 3/2 { sn8-> sn:16 sn: }
-    \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8-> sn:16 sn: }|
+    \tuplet 3/2 { sn8-> 8:16 8:16 } \tuplet 3/2 { 8-> 8:16 8:16 }
+    \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { 8-> 8:16 8:16 }|
 
-    \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8-> sn:16 sn: }
-    shot8 sn-> sn-> sn->|
+    \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { 8-> 8:16 8:16 }
+    shot8 sn-> 8-> 8->|
 
     %11:00
 
-    sn16-> sn sn sn sn16 sn-> sn sn sn16-> sn sn sn sn16 sn-> sn sn
+    sn16-> 16 16 16 16 16-> 16 16 16-> 16 16 16 16 16-> 16 16|
 
-    sn16-> sn sn sn sn16-> sn-> sn sn sn16-> sn sn sn sn16 sn sn-> sn
+    sn16-> 16 16 16 16-> 16-> 16 16 16-> 16 16 16 16 16 16-> 16|
 
-    sn16 sn-> sn sn sn16-> sn sn sn sn16-> sn-> sn sn sn16-> sn-> sn sn
+    sn16 16-> 16 16 16-> 16 16 16 16-> 16-> 16 16 16-> 16-> 16 16|
 
-    sn16-> sn sn-> sn sn16 sn-> sn sn-> sn16 sn sn-> sn-> sn16 sn sn-> sn->
+    sn16-> 16 16-> 16 16 16-> 16 16-> 16 16 16-> 16-> 16 16 16-> 16->|
 
-    sn16 sn sn sn sn16-> sn-> sn sn sn16 sn sn-> sn sn16 sn-> sn-> sn
+    sn16 16 16 16 16-> 16-> 16 16 16 16 16-> 16 16 16-> 16-> 16|
 
-    sn16-> sn sn sn sn16 sn sn-> sn sn16 sn-> sn-> sn sn16-> sn sn sn
+    sn16-> 16 16 16 16 16 16-> 16 16 16-> 16-> 16 16-> 16 16 16|
 
-    sn16-> sn-> sn sn sn16-> sn-> sn sn sn16-> sn-> sn sn sn16 sn sn-> sn->
+    sn16-> 16-> 16 16 16-> 16-> 16 16 16-> 16-> 16 16 16 16 16-> 16->|
 
-    sn16 sn sn sn sn16-> sn-> sn sn sn16 sn sn-> sn-> sn16 sn sn sn
+    sn16 16 16 16 16-> 16-> 16 16 16 16 16-> 16-> 16 16 16 16|
 
-    sn16-> sn sn sn sn16-> sn sn sn
-    sn8-> sn-> sn-> sn->
+    sn16-> 16 16 16 16-> 16 16 16
+    sn8-> 8-> 8-> 8->|
 
-    \tuplet 3/2 { sn8-> sn sn-> } \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn8-> sn sn-> } \tuplet 3/2 { sn8 sn sn }
+    \tuplet 3/2 { sn8-> 8 8-> } \tuplet 3/2 { 8 8 8 }
+    \tuplet 3/2 { sn8-> 8 8-> } \tuplet 3/2 { 8 8 8 }|
 
-    \tuplet 3/2 { sn8-> sn sn-> } \tuplet 3/2 { sn8 sn sn }
-    sn8:16-> sn:-> png4|
+    \tuplet 3/2 { sn8-> 8 8-> } \tuplet 3/2 { 8 8 8 }
+    sn8:16-> 8:16-> ping4|
 
-    r2 \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }|
+    r2 \bz { \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } }|
 
-    sn8. sn16 \bz { \tuplet 3/2 { sn8 sn sn }
-    \tuplet 3/2 { sn8 sn sn } } sn8 sn|
+    sn8. 16 \bz { \tuplet 3/2 { 8 8 8 }
+    \tuplet 3/2 { sn8 8 8 } } 8 8|
 
-    sn8:16 sn: sn8 sn sn:16 sn: sn8 sn|
+    sn8:16 8:16 8 8 8:16 8:16 8 8|
 
-    sn8:16 sn: sn8 sn sn-> sn-> sn8-> sn->|
+    sn8:16 8:16 8 8 8-> 8-> 8-> 8->|
 
     \time 3/4
-    sn4-> sn4-> shot8. sn16->
+    sn4-> 4-> shot8. sn16->
 
     \time 2/4
     sn4-> shot4|
 
     \time 3/4
-    sn4-> sn-> shot8 sn->
+    sn4-> 4-> shot8 sn->
 
     \time 2/4
-    \tuplet 3/2 { sn8-> sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: }|
+    \tuplet 3/2 { sn8-> 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 }|
 
     \time 3/4
-    ping8 sn-> sn-> sn-> sn-> shot
+    ping8 sn-> 8-> 8-> 8-> shot
 
     \time 2/4
-    sn16-> sn sn sn shot8 sn->|
+    sn16-> 16 16 16 shot8 sn->|
 
     \time 3/4
-    shot8 sn-> r8 sn8-> sn4->
+    shot8 sn-> r8 sn8-> 4->
 
     \time 2/4
-    shot4 sn8-> sn->|
+    shot4 sn8-> 8->|
 
 
     \time 3/4
-    \tuplet 3/2 { sn8-> sn:16 sn: } \tuplet 3/2 { sn8-> sn:16 sn: }
-    ping8 ping
+    \tuplet 3/2 { sn8-> 8:16 8:16 } \tuplet 3/2 { 8-> 8:16 8:16 }
+    ping8 8
 
     \time 2/4
-    sn8-> sn-> sn8-> shot|
+    sn8-> 8-> 8-> shot|
 
     \time 3/4
-    sn16-> sn sn sn shot8 sn-> sn16-> sn-> sn-> sn->
+    sn16-> 16 16 16 shot8 sn-> sn16-> 16-> 16-> 16->|
 
     \time 2/4
-    sn16-> sn-> sn-> sn-> sn16-> sn-> sn-> sn->|
+    sn16-> 16-> 16-> 16-> 16-> 16-> 16-> 16->|
 
     \time 4/4
     ping4 sn4-> r2|
     %11:30
     R1*3
 
-    \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }
-    \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }|
+    \bz { \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } }
+    \bz { \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } }|
 
-    sn8. sn16 \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } } sn8. sn16|
+    sn8. 16 \bz { \tuplet 3/2 { 8 8 8 } \tuplet 3/2 { 8 8 8 } } 8. 16|
 
-    sn4 \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } } sn8 sn|
+    sn4 \bz { \tuplet 3/2 { 8 8 8 } \tuplet 3/2 { 8 8 8 } } 8 8|
 
-    \bz { \tuplet 3/2 { sn8 sn sn } }
-    \tuplet 3/2 { sn4 \bz sn8( } \tuplet 3/2 { sn4) \bz sn8( } sn4)
+    \bz { \tuplet 3/2 { sn8 8 8 } }
+    \tuplet 3/2 { sn4 \bz 8( } \tuplet 3/2 { 4) \bz 8( } 4)
 
-    \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }
-    \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }|
+    \bz { \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } }
+    \bz { \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } }|
 
-    sn8. sn16 \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } } sn8. sn16|
+    sn8. 16 \bz { \tuplet 3/2 { 8 8 8 } \tuplet 3/2 { 8 8 8 } } 8. 16|
 
-    sn4 \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } } sn8 sn|
+    sn4 \bz { \tuplet 3/2 { 8 8 8 } \tuplet 3/2 { 8 8 8 } } 8 8|
 
-    \tuplet 3/2 { sn4 sn sn } sn8 sn sn sn|
+    \tuplet 3/2 { sn4 4 4 } 8 8 8 8|
 
-    \bz { \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8 sn sn } } r2|
+    \bz { \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8 8 8 } } r2|
 
-    \bz { \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8 sn sn } } r2|
+    \bz { \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8 8 8 } } r2|
 
-    r4 \bz { \tuplet 3/2 { sn8-> sn sn } \tuplet 3/2 { sn8 sn sn } } sn8 sn|
+    r4 \bz { \tuplet 3/2 { sn8-> 8 8 } \tuplet 3/2 { 8 8 8 } } 8 8|
 
-    \tuplet 3/2 { sn4 sn sn } sn8 sn sn sn|
+    \tuplet 3/2 { sn4 4 4 } 8 8 8 8|
 
-    \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } sn8 sn sn sn|
+    \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } 8 8 8 8|
 
-    sn8:16 sn: sn: sn: sn8 sn sn sn|
+    sn8:16 8:16 8:16 8:16 8 8 8 8|
 
-    \tuplet 3/2 { sn8-> sn:16 sn: } \tuplet 3/2 { sn8:16 sn: sn: } sn:16 sn: sn: sn:|
+    \tuplet 3/2 { sn8-> 8:16 8:16 } \tuplet 3/2 { 8:16 8:16 8:16 } 8:16 8:16 8:16 8:16|
 
-    sn8:16 sn: sn: sn: sn4-> \fl sn4->|
+    sn8:16 8:16 8:16 8:16 4-> \fl 4->|
 
-    sn8-> sn:16-> sn:-> sn:-> \tuplet 3/2 { sn4-> sn8-> } \tuplet 3/2 { sn8-> sn-> sn-> }|
+    sn8-> 8:16-> 8:16-> 8:16-> \tuplet 3/2 { 4-> 8-> } \tuplet 3/2 { 8-> 8-> 8-> }|
 
-    \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8-> sn-> sn-> }
-    \tuplet 3/2 { sn8:16 sn: sn: } \tuplet 3/2 { sn8-> sn-> sn-> }|
+    \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { 8-> 8-> 8-> }
+    \tuplet 3/2 { sn8:16 8:16 8:16 } \tuplet 3/2 { 8-> 8-> 8-> }|
 
-    \tuplet 3/2 { sn4 sn sn } \tuplet 3/2 { sn4 sn shot }|
+    \tuplet 3/2 { sn4 4 4 } \tuplet 3/2 { 4 4 shot }|
 
-    sn8 sn sn sn sn-> sn-> sn-> sn->|
+    sn8 8 8 8 8-> 8-> 8-> 8->|
 
     % tempo change
     \time 2/4
     sn4-> r4|
 
     \time 4/4
-    shot4 sn-> sn-> sn->|
+    shot4 sn-> 4-> 4->|
 
     \time 3/4
-    sn8-> sn8:16-> sn:-> sn:-> sn:-> sn:->|
+    sn8-> 8:16-> 8:16-> 8:16-> 8:16-> 8:16->|
 
-    sn8:16-> sn:-> sn:-> sn:-> sn:-> sn:->|
+    sn8:16-> 8:16-> 8:16-> 8:16-> 8:16-> 8:16->|
 
-    sn8:16-> sn:-> sn:-> sn:-> sn:-> sn:->|
+    sn8:16-> 8:16-> 8:16-> 8:16-> 8:16-> 8:16->|
 
-    shot4 sn8-> sn-> sn-> sn->|
-
-    \time 4/4
-    sn8.-> sn16-> sn8-> sn8->:16-> sn: sn: shot8-> sn->|
-
-    \time 2/4
-    sn8.-> sn16-> sn8.-> sn16->|
+    shot4 sn8-> 8-> 8-> 8->|
 
     \time 4/4
-    sn8.-> sn16-> sn8-> sn8->:16-> sn: sn: shot8-> sn->|
+    sn8.-> 16-> 8-> 8:16-> 8:16-> 8:16-> shot8-> sn->|
 
     \time 2/4
-    sn8.-> sn16-> sn8.-> sn16->|
+    sn8.-> 16-> 8.-> 16->|
+
+    \time 4/4
+    sn8.-> 16-> 8-> 8:16-> 8:16-> 8:16-> shot8-> sn->|
+
+    \time 2/4
+    sn8.-> 16-> 8.-> 16->|
 
     \time 4/4
     <shot \cr dbl>4 shot \cr dbl8-^ shot4 \cr dbl8-^
     shot4 \cr dbl8-^ shot4 \cr dbl8-^ shot4
 
-    sn8-> sn-> shot sn-> sn-> sn-> sn sn
+    sn8-> 8-> shot sn-> 8-> 8-> 8 8
 
-    r2 \bz { \tuplet 3/2 { sn8 sn sn } \tuplet 3/2 { sn8 sn sn } }
+    r2 \bz { \tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } }
 
-    \tuplet 3/2 { sn4 sn sn } \tuplet 3/2 { sn4 sn sn }
+    \tuplet 3/2 { sn4 4 4 } \tuplet 3/2 { 4 4 4 }
 
-    sn8. sn16-> sn8.-> sn16-> sn8.-> sn16-> sn8.-> sn16->
+    sn8. 16-> 8.-> 16-> 8.-> 16-> 8.-> 16->
 
-    \tuplet 3/2 { sn4-> sn shot } \fl \tuplet 3/2 { sn4-> \fl sn-> \fl sn-> }|
+    \tuplet 3/2 { sn4-> 4 shot } \fl \tuplet 3/2 { sn4-> \fl 4-> \fl 4-> }|
 
     % tempo change
 
     R1*3
 
-    \tuplet 3/2 { sn4 sn sn } \tuplet 3/2 { sn4-> sn-> sn-> }|
+    \tuplet 3/2 { sn4 4 4 } \tuplet 3/2 { 4-> 4-> 4-> }|
 
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn:-> }
-    \tuplet 3/2 { sn8:16-> sn:-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn:-> }|
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8:16-> }
+    \tuplet 3/2 { sn8:16-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8:16-> }|
 
-    \tuplet 3/2 { sn8:16-> sn:-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn:-> }
+    \tuplet 3/2 { sn8:16-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8:16-> }
+    sn8-> \fl 8-> \fl 8-> \fl 8->|
+
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8:16-> }
+    \tuplet 3/2 { sn8:16-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8:16-> }|
+
+    \tuplet 3/2 { sn8:16-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> shot4 }
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8-> }|
+
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8-> }
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8:16-> }|
+
+    \tuplet 3/2 { sn8:16-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> shot4 }
+    \fl \tuplet 3/2 { sn4-> \fl 4-> \fl 4-> }|
+
+    \fl \tuplet 3/2 { sn8 \fl 8 \fl 8 } \fl \tuplet 3/2 { 8 \fl 8 \fl 8 }
+    \fl \tuplet 3/2 { sn8 \fl 8 \fl 8 } \fl \tuplet 3/2 { 8 \fl 8 \fl 8 }|
+
+    \fl \tuplet 5/4 { sn8 \fl 8 \fl 8 \fl 8 \fl 8 } \fl \tuplet 3/2 { 4-> \fl 4-> \fl 4-> }|
+
+    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { 8-> 8:16-> 8:16-> }
+    \tuplet 3/2 { sn8:16-> 8:16-> 8:16-> } \tuplet 3/2 { 8-> 8 8 }|
+
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8:16-> }
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 16-> 16 16 }|
+
+    shot8 sn-> \fl \tuplet 3/2 { 8-- \fl 8 \fl 8 }
+    \fl \tuplet 3/2 { sn8-- \fl 8 \fl 8-- } \fl \tuplet 3/2 { 8 \fl 8-- \fl 8 }|
+
+    shot8 sn-> \fl \tuplet 3/2 { 8-- \fl 8 \fl 8 }
+    \fl \tuplet 3/2 { sn8-- \fl 8 \fl 8-- } \fl \tuplet 3/2 { 8 \fl 8-- \fl 8 }|
+
+    \tuplet 5/4 { ping8 8 8 8 8 }
+    ping8 8 sn8-> 8->|
+
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8-> }
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 16-> 16 16 }|
+
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 ping8. }
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8-> }|
+
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8-> }
     sn8-> \fl sn-> \fl sn-> \fl sn->|
 
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn:-> }
-    \tuplet 3/2 { sn8:16-> sn:-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn:-> }|
+    \tuplet 6/4 { sn16-> 16 16 16 8 } \tuplet 6/4 { 16-> 16 16 16 8 }
+    \tuplet 6/4 { sn16-> 16 16 16 8 } \tuplet 6/4 { 16-> 16 16 16 16 16 }
 
-    \tuplet 3/2 { sn8:16-> sn:-> sn:-> } \tuplet 3/2 { sn8:16-> shot4 }
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }|
+    \tuplet 6/4 { sn8 16-> 16 16 16 } \tuplet 6/4 { 8 16-> 16 16 16 }
+    \tuplet 6/4 { sn8 16-> 16 16 16 } \tuplet 6/4 { 8 16-> 16 16 16 }|
 
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn:-> }|
+    \tuplet 3/2 { sn16 16 8 8 } \tuplet 3/2 { 8 8 8-> }
+    \tuplet 3/2 { sn8-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> 8:16-> 8:16-> }
 
-    \tuplet 3/2 { sn8:16-> sn:-> sn:-> } \tuplet 3/2 { sn8:16-> shot4 }
-    \fl \tuplet 3/2 { sn4-> \fl sn-> \fl sn-> }|
+    \tuplet 3/2 { sn8:16-> 8:16-> 8:16-> } \tuplet 3/2 { 8:16-> shot4 }
+    \fl \tuplet 3/2 { sn4-> \fl 4-> \fl 4-> }
 
-    \fl \tuplet 3/2 { sn8 \fl sn \fl sn } \fl \tuplet 3/2 { sn8 \fl sn \fl sn }
-    \fl \tuplet 3/2 { sn8 \fl sn \fl sn } \fl \tuplet 3/2 { sn8 \fl sn \fl sn }|
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 16-> 16 16 }
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 16-> 16 16 }|
 
-    \fl \tuplet 5/4 { sn8 \fl sn \fl sn \fl sn \fl sn } \fl \tuplet 3/2 { sn4-> \fl sn-> \fl sn-> }|
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 16-> 16 16 }
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 16-> 16 16 }|
 
-    \tuplet 3/2 { shot4 sn8-> } \tuplet 3/2 { sn8-> sn:16-> sn:-> }
-    \tuplet 3/2 { sn8:16-> sn:-> sn:-> } \tuplet 3/2 { sn8-> sn sn }|
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 16-> 16 16 }
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 16-> 16 16 }|
 
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn:-> }
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn sn-> sn sn }|
-
-    shot8 sn-> \fl \tuplet 3/2 { sn8-- \fl sn \fl sn }
-    \fl \tuplet 3/2 { sn8-- \fl sn \fl sn-- } \fl \tuplet 3/2 { sn8 \fl sn-- \fl sn }|
-
-    shot8 sn-> \fl \tuplet 3/2 { sn8-- \fl sn \fl sn }
-    \fl \tuplet 3/2 { sn8-- \fl sn \fl sn-- } \fl \tuplet 3/2 { sn8 \fl sn-- \fl sn }|
-
-    \tuplet 5/4 { png8 png png png png }
-    png8 png sn8-> sn->|
-
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn sn-> sn sn }|
-
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn ping8. }
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }|
-
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn-> }
-    sn8-> \fl sn-> \fl sn-> \fl sn->|
-
-    \tuplet 6/4 { sn16-> sn sn sn sn8 } \tuplet 6/4 { sn16-> sn sn sn sn8 }
-    \tuplet 6/4 { sn16-> sn sn sn sn8 } \tuplet 6/4 { sn16-> sn sn sn sn sn }
-
-    \tuplet 6/4 { sn8 sn16-> sn sn sn } \tuplet 6/4 { sn8 sn16-> sn sn sn }
-    \tuplet 6/4 { sn8 sn16-> sn sn sn } \tuplet 6/4 { sn8 sn16-> sn sn sn }|
-
-    \tuplet 3/2 { sn16 sn sn8 sn } \tuplet 3/2 { sn8 sn sn-> }
-    \tuplet 3/2 { sn8-> sn:16-> sn:-> } \tuplet 3/2 { sn8:16-> sn:-> sn:-> }
-
-    \tuplet 3/2 { sn8:16-> sn:-> sn:-> } \tuplet 3/2 { sn8:16-> shot4 }
-    \fl \tuplet 3/2 { sn4-> \fl sn-> \fl sn-> }
-
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn sn-> sn sn }
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn sn-> sn sn }|
-
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn sn-> sn sn }
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn sn-> sn sn }|
-
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn sn-> sn sn }
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn sn-> sn sn }|
-
-    \tuplet 9/8 { sn16-> sn sn sn-> sn sn ping8. }
+    \tuplet 9/8 { sn16-> 16 16 16-> 16 16 ping8. }
     \tuplet 6/4 { sn4-> r16 sn16-> } \tuplet 6/4 { sn4-> r16 sn16-> }|
 
     sn4-> r4 r2
