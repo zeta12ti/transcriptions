@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.19.65"
 
 % Created on 2017-08-09.
 
@@ -15,7 +15,7 @@
     title = "DDLII"
     subtitle = "(short segment that differs from the 2018 BC packet)"
     composer = "Mike Jackson"
-    arranger = "Zeta12ti"
+    arranger = "trans. Zeta12ti"
     instrument = "Snare Drum"
 }
 
@@ -23,11 +23,11 @@ snarenotes = \drummode {
     \compressFullBarRests
     \tempo 4. = 120
     \time 12/8
-    r4 r16 sn-> sn8.-> \fl sn-> sn8-> sn16 sn8 sn16 sn8 sn16 sn8 sn16
-    sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16 sn8 sn16 sn8 ping16
-    
-    r4 r16 sn-> sn8.-> \fl sn-> sn8-> sn16 sn8 sn16 sn8 sn16 sn8 sn16
-    sn8 ping16 sn8-> sn16 sn8 sn16  sn8 sn16 sn8 sn16 sn8 sn16 sn8. ping
+    r4 r16 sn16-> 8.-> \fl 8.-> 8-> 16 8 16 8 16 8 16|
+    sn8 16 8 16 8 16 8 16 8 16 8 16 8 16 8 ping16|
+
+    r4 r16 sn16-> 8.-> \fl 8.-> 8-> 16 8 16 8 16 8 16|
+    sn8 ping16 sn8-> 16 8 16  8 16 8 16 8 16 8. ping|
     \bar "|."
 }
 
@@ -38,7 +38,7 @@ sticking = \lyricmode {
 
 \score {
     \new DrumStaff {
-        
+
         <<
             \new DrumVoice = "snare" {\snarenotes}
             \new Lyrics \lyricsto "snare" {\sticking}
