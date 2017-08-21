@@ -138,8 +138,7 @@ drumPitchNames.gock         = #'gock
 % We can use \t n to skip n notes in the sticking
 % Can't get the default argument to work since \t R will interpret R as an argument
 % and spaz out about being the wrong type
-t =
-#(define-music-function
+t = #(define-music-function
   (parser location n)
   ((number? 1))
   #{ \repeat unfold #n \skip 1 #}
