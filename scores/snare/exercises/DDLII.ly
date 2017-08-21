@@ -23,11 +23,11 @@ snarenotes = \drummode {
     \compressFullBarRests
     \tempo 4. = 120
     \time 12/8
-    r4 r16 sn16-> 8.-> \fl 8.-> 8-> 16 8 16 8 16 8 16
-    sn8 16 8 16 8 16 8 16 8 16 8 16 8 16 8 ping16
-    
-    r4 r16 sn16-> 8.-> \fl 8.-> 8-> 16 8 16 8 16 8 16
-    sn8 ping16 sn8-> 16 8 16  8 16 8 16 8 16 8. ping
+    r4 r16 sn16-> 8.-> \fl 8.-> 8-> 16 8 16 8 16 8 16|
+    sn8 16 8 16 8 16 8 16 8 16 8 16 8 16 8 ping16|
+
+    r4 r16 sn16-> 8.-> \fl 8.-> 8-> 16 8 16 8 16 8 16|
+    sn8 ping16 sn8-> 16 8 16  8 16 8 16 8 16 8. ping|
     \bar "|."
 }
 
@@ -38,7 +38,7 @@ sticking = \lyricmode {
 
 \score {
     \new DrumStaff {
-        
+
         <<
             \new DrumVoice = "snare" {\snarenotes}
             \new Lyrics \lyricsto "snare" {\sticking}
