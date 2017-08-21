@@ -1,3 +1,5 @@
+% Add the following text as a snippet in Frescobaldi
+
 -*- template; template-run;
 \version "$LILYPOND_VERSION"
 
@@ -28,12 +30,12 @@ snarenotes = \drummode {
 }
 
 sticking = \lyricmode {
-    
+
 }
 
 \score {
     \new DrumStaff {
-    
+
         <<
             \new DrumVoice = "snare" {\snarenotes}
             \new Lyrics \lyricsto "snare" {\sticking}
