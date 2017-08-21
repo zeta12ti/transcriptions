@@ -2,7 +2,7 @@
 
 \version "2.18.2"
 
-% graphics for custom noteheads and 
+% graphics for custom noteheads and
 \include "graphics.ly"
 
 %   As is, the midi will NOT work for this instrument. I think I could get it to work with some
@@ -23,6 +23,7 @@ drumPitchNames.stickclick   = #'stickclick
 drumPitchNames.sc           = #'stickclick
 drumPitchNames.backstick    = #'backstick
 drumPitchNames.bst          = #'backstick % because bs is B Sharp
+drumPitchNames.gock         = #'gock
 
 
 % custom noteheads can be added below
@@ -34,13 +35,14 @@ drumPitchNames.bst          = #'backstick % because bs is B Sharp
 % e.g. ((backstick) (triangle grob))
 % Note that the full name backstick has to be used, not bst
 #(define snare-style
-     '((snare          default         	#f				1)
-       (doublestop     default         	#f             -1)
-       (shot           cross           	"marcato"		1)
-       (ping           default			"marcato"   	1)
-       (rimclick       cross           	#f      		3)
-       (stickclick     cross           	#f      		1)
-       (backstick      harmonic-black  	#f      		1)))
+     '((snare		default		#f		1)
+       (doublestop	default		#f		-1)
+       (shot		cross		"marcato"	1)
+       (ping		default		"marcato"	1)
+       (rimclick		cross		#f		3)
+       (stickclick	cross		#f		1)
+       (backstick	harmonic-black	#f		1)
+       (gock		xcircle		"marcato"	1)))
 
 
 % catches the type of drum hit and changes the notehead based on that
@@ -64,26 +66,25 @@ drumPitchNames.bst          = #'backstick % because bs is B Sharp
     )
 )
 
-
 % set up cosmetic stuff and a few hacks
 \layout {
     % no indent
     indent = 0
-    
+
     % set the drum style: what notes exist
     \set DrumStaff.drumStyleTable = #(alist->hash-table snare-style)
-    
+
     % make things take their full space, I guess?
     % Commented out for now: I don't think it does anything we want.
-    %ragged-right = ##f
-    
+    % ragged-right = ##f
+
     % Lyrics will ignore slurs and ties,
     % allowing you to put different stickings on tied/slurred notes
     \set Lyrics.ignoreMelismata = ##t
-    
+
     \context {
         \DrumStaff
-        
+
         % stems up
         \stemUp
         % use numeric time signatures
@@ -92,16 +93,16 @@ drumPitchNames.bst          = #'backstick % because bs is B Sharp
         %\override Beam.positions = #'( 3.5 . 3.5 ) % if you want a fixed height, use this
         \override Beam.positions = #beam::place-broken-parts-at-the-same-level
         % tremolos (rolls)
-        \override StemTremolo #'slope = #0.3
-        \override StemTremolo #'style = #'default % You'd think default would be the default
+        \override StemTremolo.slope = #0.3
+        \override StemTremolo.style = #'default % You'd think default would be the default
         % For a vertically aligned tremolo
-        \override StemTremolo #'stencil = #translated-tremolo
+        \override StemTremolo.stencil = #translated-tremolo
         %\override StemTremolo #'Y-offset = #2
-        \override StemTremolo #'beam-thickness = #.43
+        \override StemTremolo.beam-thickness = #.43
         %avoid those weird notations for 2-10 multimeasure rests
         \override MultiMeasureRest.expand-limit = #1
    }
-   
+
    % this beautiful hack! EDIT: it was beautiful at the time: I spent most of a
    % day trying to figure out how to make this work while still using lyrics to hold
    % stickings.
@@ -123,7 +124,7 @@ drumPitchNames.bst          = #'backstick % because bs is B Sharp
        \override NoteHead.stencil = #ly:note-head::print-custom
        %\override Stem.avoid-note-head = ##t
    }
-   
+
    \context {
        \Score
        \consists "Dynamic_align_engraver"
@@ -149,6 +150,7 @@ u = { \skip 1 }
 
 % Makes proper flams with \fl - will always be an eighth note
 fl = \drummode {
+    % comment this to remove the cross stroke
     \temporary \override Flag.stroke-style = #"grace"
     \temporary \override Stem #'length = #4
     \grace {sn8}
@@ -207,6 +209,15 @@ cr=
 #(define-music-function (parser location music) (ly:music?)
     #{
         \tweak NoteHead.style #'cross
+        #music
+    #}
+)
+
+% changes the next notehead to xcircle
+xc=
+#(define-music-function (parser location music) (ly:music?)
+    #{
+        \tweak NoteHead.style #'xcircle
         #music
     #}
 )
