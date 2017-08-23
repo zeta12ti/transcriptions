@@ -91,7 +91,7 @@ snarenotes = \drummode {
 
     R1*11/16^"Tenor solo"
     %\tuplet 3/2 { sn8 8 8 } \tuplet 3/2 { 8 8 8 } 8 16
-    sn4->
+    sn4-> r r2
 
 
     \bar "|."
