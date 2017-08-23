@@ -1,9 +1,9 @@
 % Defines some graphics
 % Contents:
-% 	Circle Dot Notehead stencil
-%	Buzz Roll tremolo stencil
-%	Tremolo vertical alignment
-%	A tool for directly adding tremolo events
+%  Circle Dot Notehead stencil
+%  Buzz Roll tremolo stencil
+%  Tremolo vertical alignment
+%  A tool for directly adding tremolo events
 
 \version "2.18.2"
 
@@ -16,7 +16,7 @@
         (stem-thickness (* line-thickness 1.3))
         (radius (/ (- width stem-thickness) 2))
         (innerRadius (/ radius 4)))
-        
+
         (ly:make-stencil (list 'embedded-ps
             (string-append "
                 /line-thickness " (number->string line-thickness) " def
@@ -27,18 +27,18 @@
                 /half-width width 2 div def
                 /x0 half-width def
                 /y0 0 def
-                
+
                 gsave
                 currentpoint translate
                 stem-thickness setlinewidth
                 newpath
                 x0 y0 radius 0 360 arc
                 stroke
-                
+
                 newpath
                 x0 y0 innerRadius 0 360 arc
                 fill
-                
+
                 grestore"))
             (cons 0 width)
             (cons 0 0)
@@ -52,7 +52,7 @@
         (let* ((cause (ly:grob-property grob 'cause))
                (pos (ly:stem-tremolo::calc-y-offset grob)))
             ;(ly:debug (format "y-offset:~a" pos))
-            (grob-interpret-markup grob 
+            (grob-interpret-markup grob
                 (markup
                     #:override '(font-family . typewriter)
                     #:translate (cons 0 (- (/ pos 3))) ; translate as desired
