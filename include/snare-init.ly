@@ -2,7 +2,7 @@
 
 \version "2.18.2"
 
-% graphics for custom noteheads and
+% graphics for custom noteheads
 \include "graphics.ly"
 
 %   As is, the midi will NOT work for this instrument. I think I could get it to work with some
@@ -35,14 +35,14 @@ drumPitchNames.gock         = #'gock
 % e.g. ((backstick) (triangle grob))
 % Note that the full name backstick has to be used, not bst
 #(define snare-style
-     '((snare		default		#f		1)
-       (doublestop	default		#f		-1)
-       (shot		cross		"marcato"	1)
-       (ping		default		"marcato"	1)
-       (rimclick		cross		#f		3)
-       (stickclick	cross		#f		1)
-       (backstick	harmonic-black	#f		1)
-       (gock		xcircle		"marcato"	1)))
+     '((snare         default          #f          1)
+       (doublestop    default          #f         -1)
+       (shot          cross            "marcato"   1)
+       (ping          default          "marcato"   1)
+       (rimclick      cross            #f          3)
+       (stickclick    cross            #f          1)
+       (backstick     harmonic-black   #f          1)
+       (gock          xcircle          "marcato"   1)))
 
 
 % catches the type of drum hit and changes the notehead based on that
@@ -98,7 +98,7 @@ drumPitchNames.gock         = #'gock
         % For a vertically aligned tremolo
         \override StemTremolo.stencil = #translated-tremolo
         %\override StemTremolo #'Y-offset = #2
-        \override StemTremolo.beam-thickness = #.43
+        \override StemTremolo.beam-thickness = #0.43
         %avoid those weird notations for 2-10 multimeasure rests
         \override MultiMeasureRest.expand-limit = #1
    }
