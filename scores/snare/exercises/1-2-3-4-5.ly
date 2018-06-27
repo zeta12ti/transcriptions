@@ -5,7 +5,7 @@
 % NOTE: UNCOMMENT THIS FOR THE FINAL DRAFT
 % This will remove links in the pdf file, producing a smaller file and
 % reducing the possibility of personal info being leaked
-%\pointAndClickOff
+\pointAndClickOff
 
 \include "basic-setup.ly"
 
